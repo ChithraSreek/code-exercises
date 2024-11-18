@@ -52,7 +52,7 @@ public class EnglishToMorseViceVersa {
          * Write your code below; return type and arguments should be according to the problem's requirements
          */
 
-        if (textToTranslate == null || textToTranslate.length() == 0) {
+        if (textToTranslate == null || textToTranslate.isEmpty()) {
             throw new IllegalArgumentException("Invalid input");
         }
         String wordSplitter, wordJoiner, charSplitter, charJoiner;
